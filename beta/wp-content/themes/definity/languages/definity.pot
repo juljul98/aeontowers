@@ -1,0 +1,2464 @@
+# Copyright (C) 2017 89elements
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Definity 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/definity\n"
+"POT-Creation-Date: 2017-06-30 18:46:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: 89elements <contact@89elements.com>\n"
+"Language-Team: 89elements <http://themes.89elements.com/definity/>\n"
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops... The page that you are looking for does not exist! Luckily enough we, have some pages that do exist"
+msgstr ""
+
+#: 404.php:22
+msgid "Go Back Home"
+msgstr ""
+
+#: comments.php:22
+msgctxt "comments title"
+msgid "Comment"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44
+msgid "<span class=\"linea-arrows-slim-left\"></span> Older Comments"
+msgstr ""
+
+#: comments.php:45
+msgid "Newer Comments <span class=\"linea-arrows-slim-right\"></span>"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:72
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: comments.php:76 inc/visual-composer/definity_vc.php:1418
+msgid "Name"
+msgstr ""
+
+#: comments.php:78
+msgid "Email"
+msgstr ""
+
+#: footer.php:32
+msgid "<div class=\"col-md-3 footer-setup-warning\"><h5>Footer Widgets Setup</h5><p>Please add widgets vie the admin area! Navigate to the apperance tab, then widgets, from the wordpress admin dashboard.</p></div>"
+msgstr ""
+
+#: functions.php:47
+msgid "Main Menu"
+msgstr ""
+
+#. translators: %s: Name of current post
+
+#: inc/functions-filters.php:20
+msgid "Read More<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/functions-widgets.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: inc/functions-widgets.php:12
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/functions-widgets.php:20
+msgid "Sidebar Horizontal"
+msgstr ""
+
+#: inc/functions-widgets.php:22
+msgid "Add widgets here. Optional horizontal sidebar, it will show only on 3 columns blog layouts."
+msgstr ""
+
+#: inc/functions-widgets.php:30
+msgid "Sidebar Single Post"
+msgstr ""
+
+#: inc/functions-widgets.php:32
+msgid "Add widgets here, they will show in single blog post."
+msgstr ""
+
+#: inc/functions-widgets.php:40
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/functions-widgets.php:42
+msgid "Add widgets here, they will show in footer (style 1)."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:393
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:912
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2618
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:394
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:395
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1019
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:1206
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2067
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2427
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2473
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2477
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2481
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2485
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2688
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2693
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2699
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3583
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3586
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3588
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3594
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3597
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/plugins/tgm/class-tgm-plugin-activation.php:3605
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/template-tags.php:71
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:98
+msgid "<span class=\"linea-arrows-slim-left\"></span> Previous Page"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgid "Next Page <span class=\"linea-arrows-slim-right\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "Page navigation"
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "<span class=\"linea-arrows-slim-left\"></span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:105
+msgid "Newer posts <span class=\"linea-arrows-slim-right\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:106
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:212
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags.php:232 inc/template-tags.php:245
+#: template-parts/content-archive.php:27
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:373 inc/template-tags.php:378
+#: inc/template-tags.php:381
+msgid " Archives"
+msgstr ""
+
+#: inc/template-tags.php:392
+msgid "Author: "
+msgstr ""
+
+#: inc/template-tags.php:397
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:402
+msgid "Search results for: "
+msgstr ""
+
+#: inc/template-tags.php:407
+msgid "Error 404"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:153
+#: inc/visual-composer/definity_vc.php:168
+msgid "No column gaps"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:154
+#: inc/visual-composer/definity_vc.php:169
+msgid "0"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:156
+#: inc/visual-composer/definity_vc.php:171
+msgid "Check this if you don`t want spacing between the columns"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:158
+#: inc/visual-composer/definity_vc.php:173
+#: inc/visual-composer/definity_vc.php:1738
+#: inc/visual-composer/definity_vc.php:1751
+#: inc/visual-composer/definity_vc.php:1787
+#: inc/visual-composer/definity_vc.php:1856
+#: inc/visual-composer/definity_vc.php:1893
+#: inc/visual-composer/definity_vc.php:1960
+#: inc/visual-composer/definity_vc.php:1984
+#: inc/visual-composer/definity_vc.php:2032
+#: inc/visual-composer/definity_vc.php:2066
+#: inc/visual-composer/definity_vc.php:2564
+#: inc/visual-composer/definity_vc.php:2835
+#: inc/visual-composer/definity_vc.php:3181
+#: inc/visual-composer/definity_vc.php:3199
+#: inc/visual-composer/definity_vc.php:3217
+msgid "Enable"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:339
+#: inc/visual-composer/definity_vc.php:348
+msgid "Blockquote"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:340
+msgid "Display stylish blockquote"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:341
+#: inc/visual-composer/definity_vc.php:397
+#: inc/visual-composer/definity_vc.php:527
+#: inc/visual-composer/definity_vc.php:599
+#: inc/visual-composer/definity_vc.php:717
+#: inc/visual-composer/definity_vc.php:826
+#: inc/visual-composer/definity_vc.php:894
+#: inc/visual-composer/definity_vc.php:962
+#: inc/visual-composer/definity_vc.php:1016
+#: inc/visual-composer/definity_vc.php:1079
+#: inc/visual-composer/definity_vc.php:1136
+#: inc/visual-composer/definity_vc.php:1184
+#: inc/visual-composer/definity_vc.php:1259
+#: inc/visual-composer/definity_vc.php:1388
+#: inc/visual-composer/definity_vc.php:1656
+#: inc/visual-composer/definity_vc.php:1716
+#: inc/visual-composer/definity_vc.php:1845
+#: inc/visual-composer/definity_vc.php:1938
+#: inc/visual-composer/definity_vc.php:2098
+#: inc/visual-composer/definity_vc.php:2347
+#: inc/visual-composer/definity_vc.php:2621
+#: inc/visual-composer/definity_vc.php:2892
+#: inc/visual-composer/definity_vc.php:2929
+msgid "Definity Elements"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:349
+msgid "Enter quote here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:356
+#: inc/visual-composer/definity_vc.php:1679
+#: inc/visual-composer/definity_vc.php:1822
+msgid "Author"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:357
+msgid "by Henry Ford"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:362
+msgid "Blockquote Style"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:363
+msgid "Change the style of the blockquote"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:373
+#: inc/visual-composer/definity_vc.php:798
+msgid "Background"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:374
+#: inc/visual-composer/definity_vc.php:799
+msgid "Select background color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:384
+#: inc/visual-composer/definity_vc.php:516
+#: inc/visual-composer/definity_vc.php:586
+#: inc/visual-composer/definity_vc.php:704
+#: inc/visual-composer/definity_vc.php:812
+#: inc/visual-composer/definity_vc.php:881
+#: inc/visual-composer/definity_vc.php:949
+#: inc/visual-composer/definity_vc.php:1003
+#: inc/visual-composer/definity_vc.php:1066
+#: inc/visual-composer/definity_vc.php:1123
+#: inc/visual-composer/definity_vc.php:1171
+#: inc/visual-composer/definity_vc.php:1246
+#: inc/visual-composer/definity_vc.php:1375
+#: inc/visual-composer/definity_vc.php:1643
+#: inc/visual-composer/definity_vc.php:1701
+#: inc/visual-composer/definity_vc.php:1793
+#: inc/visual-composer/definity_vc.php:1899
+#: inc/visual-composer/definity_vc.php:2039
+#: inc/visual-composer/definity_vc.php:2334
+#: inc/visual-composer/definity_vc.php:2477
+#: inc/visual-composer/definity_vc.php:2763
+msgid "Custom CSS class"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:385
+#: inc/visual-composer/definity_vc.php:517
+#: inc/visual-composer/definity_vc.php:587
+#: inc/visual-composer/definity_vc.php:705
+#: inc/visual-composer/definity_vc.php:813
+#: inc/visual-composer/definity_vc.php:882
+#: inc/visual-composer/definity_vc.php:950
+#: inc/visual-composer/definity_vc.php:1004
+#: inc/visual-composer/definity_vc.php:1067
+#: inc/visual-composer/definity_vc.php:1124
+#: inc/visual-composer/definity_vc.php:1172
+#: inc/visual-composer/definity_vc.php:1376
+#: inc/visual-composer/definity_vc.php:2335
+msgid "Style particular content element differently - add a class name and refer to it in custom CSS"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:395
+msgid "Page Title"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:396
+msgid "Page title, subtitle and breadcrumbs"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:405
+#: inc/visual-composer/definity_vc.php:607
+#: inc/visual-composer/definity_vc.php:902
+#: inc/visual-composer/definity_vc.php:975
+#: inc/visual-composer/definity_vc.php:1030
+#: inc/visual-composer/definity_vc.php:1094
+#: inc/visual-composer/definity_vc.php:1143
+#: inc/visual-composer/definity_vc.php:1267
+#: inc/visual-composer/definity_vc.php:2128
+#: inc/visual-composer/definity_vc.php:2575
+#: inc/visual-composer/definity_vc.php:2846
+msgid "Title"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:406
+#: inc/visual-composer/definity_vc.php:1144
+#: inc/visual-composer/definity_vc.php:1192
+#: inc/visual-composer/definity_vc.php:1268
+#: inc/visual-composer/definity_vc.php:1430
+msgid "Enter title here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:413
+#: inc/visual-composer/definity_vc.php:1294
+#: inc/visual-composer/definity_vc.php:2581
+#: inc/visual-composer/definity_vc.php:2852
+msgid "Subtitle"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:414
+msgid "Enter subtitle here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:436
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:444
+msgid "Enable Paralalx effect"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:454
+msgid "Title color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:460
+msgid "Subtitle color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:466
+#: inc/visual-composer/definity_vc.php:1361
+msgid "Background color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:472
+#: inc/visual-composer/definity_vc.php:853
+msgid "Background Image"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:481
+msgid "Overlay background color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:482
+msgid "Optional transparent layer over background image."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:492
+msgid "Breadcrumb Links Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:498
+msgid "Breadcrumb Links Hover Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:504
+msgid "Breadcrumbs Current Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:510
+msgid "Breadcrumbs Separator Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:525
+msgid "Section Heading"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:526
+msgid "Styled heading with subheading option"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:536
+#: inc/visual-composer/definity_vc.php:724
+#: inc/visual-composer/definity_vc.php:833
+#: inc/visual-composer/definity_vc.php:2963
+msgid "Heading"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:537
+#: inc/visual-composer/definity_vc.php:903
+#: inc/visual-composer/definity_vc.php:976
+#: inc/visual-composer/definity_vc.php:1031
+#: inc/visual-composer/definity_vc.php:1095
+#: inc/visual-composer/definity_vc.php:1419
+msgid "Enter heading here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:538
+#: inc/visual-composer/definity_vc.php:904
+#: inc/visual-composer/definity_vc.php:977
+#: inc/visual-composer/definity_vc.php:1420
+msgid "Title for the feature card"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:546
+#: inc/visual-composer/definity_vc.php:732
+msgid "Sub-heading"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:547
+msgid "Enter subheading here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:548
+msgid "Subheading for more description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:554
+msgid "Heading color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:555
+#: inc/visual-composer/definity_vc.php:563
+msgid "Select heading color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:562
+msgid "Sub-heading color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:570
+#: inc/visual-composer/definity_vc.php:3017
+msgid "Bottom spacing"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:571
+msgid "Bottom Spacing in px between the heading section and other elements on the page (numbers only)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:578
+msgid "Headings and subheading spacing"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:579
+msgid "Spacing in px between the heading and the subheading (numbers only)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:597
+msgid "Feature Box"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:598
+msgid "Icon with title and short description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:608
+#: inc/visual-composer/definity_vc.php:725
+#: inc/visual-composer/definity_vc.php:834
+#: inc/visual-composer/definity_vc.php:2129
+msgid "Enter heading"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:609
+msgid "Title for the feature box"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:616
+#: inc/visual-composer/definity_vc.php:746
+#: inc/visual-composer/definity_vc.php:840
+#: inc/visual-composer/definity_vc.php:922
+#: inc/visual-composer/definity_vc.php:983
+#: inc/visual-composer/definity_vc.php:1038
+#: inc/visual-composer/definity_vc.php:1102
+msgid "Short Description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:617
+#: inc/visual-composer/definity_vc.php:747
+#: inc/visual-composer/definity_vc.php:841
+msgid "Write short description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:618
+msgid "Description for the feature box"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:623
+msgid "Feature Box Layout"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:624
+msgid "Select layout for the feature box"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:636
+msgid "Icon Style"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:637
+msgid "Select style of the icon for the feature box"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:656
+#: inc/visual-composer/definity_vc.php:909
+#: inc/visual-composer/definity_vc.php:2174
+#: inc/visual-composer/definity_vc.php:3316
+#: inc/visual-composer/definity_vc.php:3407
+#: inc/visual-composer/definity_vc.php:3497
+msgid "Icon Type"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:657
+#: inc/visual-composer/definity_vc.php:760
+#: inc/visual-composer/definity_vc.php:910
+#: inc/visual-composer/definity_vc.php:1206
+#: inc/visual-composer/definity_vc.php:2175
+#: inc/visual-composer/definity_vc.php:3317
+#: inc/visual-composer/definity_vc.php:3408
+#: inc/visual-composer/definity_vc.php:3498
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:668
+#: inc/visual-composer/definity_vc.php:784
+#: inc/visual-composer/definity_vc.php:935
+#: inc/visual-composer/definity_vc.php:1232
+#: inc/visual-composer/definity_vc.php:1509
+#: inc/visual-composer/definity_vc.php:1695
+#: inc/visual-composer/definity_vc.php:2190
+msgid "Icon Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:669
+#: inc/visual-composer/definity_vc.php:1233
+#: inc/visual-composer/definity_vc.php:1696
+msgid "(optional) Select icon color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:675
+#: inc/visual-composer/definity_vc.php:942
+#: inc/visual-composer/definity_vc.php:1059
+msgid "Top Offset"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:676
+msgid "Distance between text and icon in px"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:682
+msgid "Left Offset"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:683
+msgid "Distance between text and icon in px (numbers only) "
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:693
+msgid "Right Offset"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:694
+#: inc/visual-composer/definity_vc.php:943
+#: inc/visual-composer/definity_vc.php:1060
+msgid "Distance between text and icon in px (numbers only)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:715
+msgid "Feature Hover Box"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:716
+msgid "Hover box that change the text on hover"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:726
+#: inc/visual-composer/definity_vc.php:741
+#: inc/visual-composer/definity_vc.php:835
+msgid "Heading for the element"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:733
+msgid "Enter subheading"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:734
+msgid "Sub-heading for the element"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:739
+msgid "Hover Heading"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:740
+msgid "Enter hover heading"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:748
+#: inc/visual-composer/definity_vc.php:842
+msgid "Short description shown on hover. TIP: keep the description text the same size for multiple elements for best look."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:753
+#: inc/visual-composer/definity_vc.php:847
+#: inc/visual-composer/definity_vc.php:929
+#: inc/visual-composer/definity_vc.php:990
+#: inc/visual-composer/definity_vc.php:1053
+#: inc/visual-composer/definity_vc.php:1471
+#: inc/visual-composer/definity_vc.php:1923
+#: inc/visual-composer/definity_vc.php:2072
+#: inc/visual-composer/definity_vc.php:2605
+#: inc/visual-composer/definity_vc.php:2876
+msgid "Link"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:754
+#: inc/visual-composer/definity_vc.php:848
+msgid "(optional) Add a link after the description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:759
+msgid "Chose main icon"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:771
+msgid "Chose icon shown on hover"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:772
+msgid "Select icon from library. This icon will be visible on mouse hover, it can be the same as the main one."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:785
+#: inc/visual-composer/definity_vc.php:936
+#: inc/visual-composer/definity_vc.php:1510
+#: inc/visual-composer/definity_vc.php:2191
+msgid "Select icon color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:791
+msgid "Icon Hover Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:792
+msgid "Select icon color for the hover icon"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:805
+msgid "Hover Background"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:806
+msgid "Select background color for the hover"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:824
+msgid "Feature Image Hover"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:825
+msgid "Image that shows content on hover"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:854
+msgid "Add larger image as a background,"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:859
+#: inc/visual-composer/definity_vc.php:1481
+#: inc/visual-composer/definity_vc.php:2224
+msgid "Background Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:860
+msgid "Set background color, or add transparent layer over the image"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:866
+msgid "Text content left spacing"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:867
+#: inc/visual-composer/definity_vc.php:875
+msgid "Adjust the text content spacing (numbers only)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:874
+msgid "Text content right spacing"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:892
+msgid "Feature Card"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:893
+msgid "Card like element with icon, title and short description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:923
+#: inc/visual-composer/definity_vc.php:984
+#: inc/visual-composer/definity_vc.php:1039
+#: inc/visual-composer/definity_vc.php:1103
+msgid "Enter short description here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:924
+#: inc/visual-composer/definity_vc.php:985
+#: inc/visual-composer/definity_vc.php:1040
+msgid "Description for the feature card"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:930
+#: inc/visual-composer/definity_vc.php:991
+#: inc/visual-composer/definity_vc.php:1054
+msgid "Add a link after the description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:960
+msgid "Feature Cards Image"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:961
+msgid "Card like element with image, title, and text"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:968
+#: inc/visual-composer/definity_vc.php:1022
+#: inc/visual-composer/definity_vc.php:1662
+#: inc/visual-composer/definity_vc.php:1917
+#: inc/visual-composer/definity_vc.php:2057
+#: inc/visual-composer/definity_vc.php:2506
+msgid "Image"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:969
+msgid "Select image from the media library. (optimal size: 350 x 370 px)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:996
+msgid "Element Background Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:997
+msgid "Select background color for this element"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1014
+msgid "Link Card"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1015
+msgid "Card like element with image, title, description & link"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1023
+msgid "Select image from the media library. (optimal size: 680 x 490 px)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1032
+msgid "Title for the link Card"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1047
+msgid "Button Title"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1048
+msgid "Enter button text here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1077
+msgid "Feature Steps"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1078
+msgid "Steps element, with number, title and short description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1086
+msgid "Step Number"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1087
+msgid "01"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1088
+msgid "Number for the step"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1096
+msgid "Title for the feature element"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1104
+msgid "Description for the feature element"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1109
+msgid "Step Number Vertical Offset"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1110
+msgid "Offset the position of the step number vertically, enter negative number for UP e.g: -15, and positive number for DOWN e.g: 15 (numbers only)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1116
+msgid "Step Number Horizontal Offset"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1117
+msgid "Offset the position of the step number horizontally, enter negative number for LEFT e.g: -5, and positive number for RIGHT e.g: 5 (numbers only)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1134
+msgid "Number Counter"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1135
+msgid "Number counter that counts from 0 to desired number"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1145
+msgid "Enter title for this element, that will show up bellow the number counter"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1151
+msgid "Number"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1152
+msgid "Enter number that will be counted towards (number only) "
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1157
+msgid "Number Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1158
+msgid "Select number color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1164
+#: inc/visual-composer/definity_vc.php:1239
+msgid "Title Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1165
+msgid "Select title color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1182
+msgid "Progress Circle"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1183
+msgid "Progress circle with icon"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1191
+msgid "Element Title"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1193
+msgid "Enter title for this element, that will show up bellow the progress circle"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1199
+msgid "Progress"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1200
+msgid "(numbers only) Enter number from 0 to 100 that represent the circle progress bar"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1205
+msgid "Select Icon"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1218
+msgid "Progress Line Tickness"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1219
+msgid "(numbers only) Enter number to change the progress line thickness "
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1225
+msgid "Progress Line Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1226
+msgid "(optional) Select progress line color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1240
+msgid "(optional) Select title color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1247
+msgid "Style particular content element differently - add a class name and refer to it in custom CSS (optional)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1257
+msgid "Pricing Table"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1258
+msgid "Pricing table with title, features and link"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1269
+msgid "Title for the pricing table"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1276
+msgid "Price"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1277
+msgid "The price"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1282
+msgid "Currency"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1283
+msgid "The currency, e.g: $,£,€ "
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1288
+msgid "Interval"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1289
+msgid "Monthly or yearly, e.g: /mo for month "
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1295
+msgid "E.g: get the job done"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1296
+msgid "Enter subtitle bellow the price"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1301
+msgid "Feature List"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1302
+msgid "Delete this text and create bulleted list of features here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1303
+msgid "Feature List that describes what the buyer gets with this price option"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1309
+msgid "Make this pricing option featured"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1315
+msgid "CTA Button"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1316
+msgid "Call to action link"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1321
+msgid "Button style"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1322
+msgid "(optional) Select button style. Tip: dark button on light background"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1338
+msgid "Button size"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1339
+msgid "Select button size"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1350
+msgid "Custom button color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1351
+msgid "Pick custom button color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1362
+msgid "Change the background color of the pricing table"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1368
+msgid "Accent color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1369
+msgid "Change the accent color of the pricing table - title, price and featured banner"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1386
+msgid "Team Member"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1387
+msgid "Add team member with image, description and links"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1394
+msgid "Select Layout"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1395
+msgid "Select form 3 different team layouts."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1407
+msgid "Image of the team member"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1408
+msgid "Select image from the media library. (optimal size: 360 x 440 px)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1429
+msgid "CTA Title"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1440
+msgid "Position"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1441
+msgid "Web Developer"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1442
+msgid "Position in your team"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1447
+#: inc/visual-composer/definity_vc.php:2990
+msgid "Description"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1448
+msgid "Enter short description about the team member"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1449
+msgid "Few words from the team member"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1460
+msgid "Disable social links reveal animation"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1472
+msgid "Add link to your contact page"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1482
+msgid "Change the background color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1492
+msgid "Background Icon"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1493
+msgid "Change the background icon"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1521
+msgid "Height"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1522
+msgid "Adjust the height of the CTA to match the images of ,your team members"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1534
+msgid "Show social links for the team member"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1545
+msgid "Enter your Facebook profile URL."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1556
+msgid "Enter your Twitter profile URL."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1567
+msgid "Enter your Instagram profile URL."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1578
+msgid "Enter your LinedIn profile URL."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1589
+#: inc/visual-composer/definity_vc.php:1622
+msgid "Enter your Google+ profile URL."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1600
+msgid "Enter your Behance profile URL."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1611
+msgid "Enter your YouTube profile URL."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1633
+msgid "Enter your RSS URL."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1644
+#: inc/visual-composer/definity_vc.php:1702
+#: inc/visual-composer/definity_vc.php:1794
+#: inc/visual-composer/definity_vc.php:1900
+#: inc/visual-composer/definity_vc.php:2040
+#: inc/visual-composer/definity_vc.php:2478
+#: inc/visual-composer/definity_vc.php:2764
+msgid "(optional) Style particular content element differently - add a class name and refer to it in custom CSS"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1654
+msgid "Testimonial Cards"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1655
+msgid "Card like element for testimonials"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1663
+msgid "Add image of the author. (optimal size: 75 x 75 px, circle, transparent png)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1670
+#: inc/visual-composer/definity_vc.php:1813
+msgid "Testimonial"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1671
+msgid "Short testimonial here..."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1672
+#: inc/visual-composer/definity_vc.php:1815
+msgid "Enter testimonial"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1680
+msgid "By Author Name"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1681
+#: inc/visual-composer/definity_vc.php:1823
+msgid "Enter the author name"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1688
+#: inc/visual-composer/definity_vc.php:1830
+msgid "Company"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1689
+msgid "author`s company"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1690
+msgid "Enter the author`s company"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1719
+msgid "Testimonials carousel"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1724
+#: inc/visual-composer/definity_vc.php:1946
+msgid "Arrows"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1725
+#: inc/visual-composer/definity_vc.php:1947
+msgid "Display \"prev\" and \"next\" arrows."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1735
+#: inc/visual-composer/definity_vc.php:1957
+msgid "Show the arrows on hover"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1736
+#: inc/visual-composer/definity_vc.php:1958
+msgid "Only show the arrows when you hover over the slider"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1748
+#: inc/visual-composer/definity_vc.php:1853
+#: inc/visual-composer/definity_vc.php:1981
+msgid "Autoplay"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1749
+#: inc/visual-composer/definity_vc.php:1854
+#: inc/visual-composer/definity_vc.php:1982
+msgid "Slider change slides automatically."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1757
+#: inc/visual-composer/definity_vc.php:1862
+#: inc/visual-composer/definity_vc.php:1990
+msgid "Autoplay Speed"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1758
+#: inc/visual-composer/definity_vc.php:1863
+#: inc/visual-composer/definity_vc.php:1991
+msgid "Enter autoplay interval in milliseconds (1 second = 1000 milliseconds)."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1767
+#: inc/visual-composer/definity_vc.php:1872
+#: inc/visual-composer/definity_vc.php:2000
+msgid "Animation Speed"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1768
+#: inc/visual-composer/definity_vc.php:1873
+#: inc/visual-composer/definity_vc.php:2001
+msgid "Enter animation speed in milliseconds (1 second = 1000 milliseconds)."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1773
+#: inc/visual-composer/definity_vc.php:2018
+msgid "Animation Type"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1774
+#: inc/visual-composer/definity_vc.php:2019
+msgid "Select animation type."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1784
+#: inc/visual-composer/definity_vc.php:1890
+#: inc/visual-composer/definity_vc.php:2029
+msgid "Adaptive Height"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1785
+#: inc/visual-composer/definity_vc.php:1891
+#: inc/visual-composer/definity_vc.php:2030
+msgid "Change the height of the slide depending on the content height."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1814
+msgid "Enter the testimonial here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1831
+msgid "Enter the author company and role"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1878
+#: inc/visual-composer/definity_vc.php:2006
+msgid "Slides to show"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1879
+#: inc/visual-composer/definity_vc.php:2007
+msgid "Enter number of slides to show at once (default set on 5)."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1884
+#: inc/visual-composer/definity_vc.php:2012
+msgid "Slides to scroll"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1885
+#: inc/visual-composer/definity_vc.php:2013
+msgid "Number of slides that will scroll at once on the next slide (default set on 1)."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1918
+msgid "Add logo image."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1924
+#: inc/visual-composer/definity_vc.php:2073
+#: inc/visual-composer/definity_vc.php:2606
+#: inc/visual-composer/definity_vc.php:2877
+msgid "(optional) Add link to the logo"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1970
+msgid "Dots"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:1971
+msgid "Display navigation dots that show the current slide."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2058
+msgid "Add image for the slide here, TIP: try to keep the all images the same size."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2063
+msgid "Lightbox"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2064
+msgid "Open the full size images from the slider in Lightbox (Popup), you must select this option on every slide that you want to be in the lightbox."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2088
+msgid "No contact forms found"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2096
+msgid "CTA"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2097
+msgid "Call to action, select from multiple types"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2104
+msgid "CTA Type"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2105
+msgid "Select CTA type"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2116
+#: inc/visual-composer/definity_vc.php:2948
+msgid "Select form"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2117
+#: inc/visual-composer/definity_vc.php:2949
+msgid "Select a previously created contact-form from the list."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2130
+msgid "Enter call to action text here"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2135
+#: inc/visual-composer/definity_vc.php:2145
+msgid "Button"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2136
+msgid "Add button/link for the CTA"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2146
+msgid "Enter the url for the popup, e.g. YouTube video"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2155
+#: inc/visual-composer/definity_vc.php:2253
+msgid "Button type"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2156
+#: inc/visual-composer/definity_vc.php:2254
+msgid "Chose button type"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2201
+msgid "Heading style"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2202
+msgid "Change the heading style"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2213
+msgid "Background image"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2214
+msgid "Add background image from the media library."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2225
+msgid "Change the background color. Note: you can use background image and transparent color together."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2236
+msgid "Button Size"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2237
+msgid "Chose button size"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2272
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2282
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2292
+msgid "Ghost Button Border Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2302
+msgid "Ghost Button Hover Background"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2312
+msgid "Text Button Border Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2322
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2328
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2345
+msgid "Portfolio Grid"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2346
+msgid "Display meida items in a grid"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2357
+#: inc/visual-composer/definity_vc.php:2587
+#: inc/visual-composer/definity_vc.php:2643
+#: inc/visual-composer/definity_vc.php:2858
+msgid "Show filters"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2359
+#: inc/visual-composer/definity_vc.php:2645
+msgid "Use filters to show and hide type of projects/portfolio items"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2361
+#: inc/visual-composer/definity_vc.php:2647
+msgid "Filters"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2368
+#: inc/visual-composer/definity_vc.php:2654
+msgid "One filter per input field, e.g: webdesign"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2378
+#: inc/visual-composer/definity_vc.php:2664
+msgid "(optional) One filter per input field, e.g: print"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2388
+#: inc/visual-composer/definity_vc.php:2674
+msgid "(optional) One filter per input field, e.g: photography"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2398
+#: inc/visual-composer/definity_vc.php:2408
+#: inc/visual-composer/definity_vc.php:2418
+#: inc/visual-composer/definity_vc.php:2428
+#: inc/visual-composer/definity_vc.php:2438
+#: inc/visual-composer/definity_vc.php:2448
+#: inc/visual-composer/definity_vc.php:2458
+#: inc/visual-composer/definity_vc.php:2684
+#: inc/visual-composer/definity_vc.php:2694
+#: inc/visual-composer/definity_vc.php:2704
+#: inc/visual-composer/definity_vc.php:2714
+#: inc/visual-composer/definity_vc.php:2724
+#: inc/visual-composer/definity_vc.php:2734
+#: inc/visual-composer/definity_vc.php:2744
+msgid "(optional) One filter per input field"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2467
+#: inc/visual-composer/definity_vc.php:2753
+msgid "All filter - name"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2468
+#: inc/visual-composer/definity_vc.php:2754
+msgid "(optional) Change the name of \"All\" filter"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2487
+#: inc/visual-composer/definity_vc.php:2773
+msgid "Portfolio Item"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2495
+#: inc/visual-composer/definity_vc.php:2781
+msgid "Media Type"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2496
+#: inc/visual-composer/definity_vc.php:2782
+msgid "Chose between image or video"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2507
+#: inc/visual-composer/definity_vc.php:2793
+msgid "Add image. Images for all the portfolio items should have the same size for best effect. "
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2516
+#: inc/visual-composer/definity_vc.php:2802
+msgid "Video URL"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2517
+#: inc/visual-composer/definity_vc.php:2803
+msgid "Paste the link to the video."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2527
+#: inc/visual-composer/definity_vc.php:2813
+msgid "Video Image"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2528
+#: inc/visual-composer/definity_vc.php:2814
+msgid "Chose image that will present the video in the portfolio."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2537
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2538
+msgid "Select how many portfolio items you want in a row. All items should have the same layout."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2548
+#: inc/visual-composer/definity_vc.php:2823
+msgid "Hover Effect"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2549
+#: inc/visual-composer/definity_vc.php:2824
+msgid "(optional) Change the hover effect"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2562
+#: inc/visual-composer/definity_vc.php:2833
+msgid "Open in Popup (lightbox)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2566
+#: inc/visual-composer/definity_vc.php:2837
+msgid "Delete the link, for the popup to work."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2576
+#: inc/visual-composer/definity_vc.php:2847
+msgid "Enter title for this portfolio item"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2582
+#: inc/visual-composer/definity_vc.php:2853
+msgid "Enter subtitle for this portfolio item"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2589
+#: inc/visual-composer/definity_vc.php:2860
+msgid "This element has filter/s"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2595
+#: inc/visual-composer/definity_vc.php:2866
+msgid "Filter name"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2596
+#: inc/visual-composer/definity_vc.php:2867
+msgid "Enter filter name/s so you can show and hide portfolio items. You can enter multiple filters, separated just by whitespace."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2619
+msgid "Portfolio Masonry Grid"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2620
+msgid "Display meida items in a masonry grid"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2633
+msgid "Masonry Layout"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2634
+msgid "Select masonry layout style"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2792
+msgid "Chose image"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2890
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2891
+msgid "Display recent blog posts"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2899
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2900
+msgid "Number of posts that you want to display"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2905
+msgid "By Categories"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2906
+msgid "(optional) Enter the slug of the categories that you want to display, comma separated."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2911
+msgid "By Tags"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2912
+msgid "(optional) Enter the slug of the tag/s that you want to display, comma separated."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2917
+msgid "By Name"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2918
+msgid "(optional) Enter the slug of the post that you want to display, only one post can be displayed this way."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2927
+#: inc/visual-composer/definity_vc.php:2935
+msgid "Contact Layout"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2928
+msgid "Display contact info and google map"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2936
+msgid "Select contact layout that you want to display."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2951
+#: inc/visual-composer/definity_vc.php:2965
+#: inc/visual-composer/definity_vc.php:2979
+#: inc/visual-composer/definity_vc.php:2992
+#: inc/visual-composer/definity_vc.php:3005
+#: inc/visual-composer/definity_vc.php:3019
+#: inc/visual-composer/definity_vc.php:3037
+msgid "Contact Form"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2964
+msgid "Heading for the contact form section."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2977
+msgid "Subheading"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2978
+msgid "Subheading for the contact form section."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:2991
+msgid "Enter description for the contact form section."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3003
+msgid "Heading top spacing."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3004
+msgid "Change the top spacing of the heading."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3018
+msgid "Change the bottom spacing of the contact form."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3031
+msgid "Form Style"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3032
+msgid "Change the style of the form."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3049
+msgid "API Key (required)"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3050
+msgid "Enter your %sGoogle Maps API key%s."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3051
+#: inc/visual-composer/definity_vc.php:3069
+#: inc/visual-composer/definity_vc.php:3091
+#: inc/visual-composer/definity_vc.php:3117
+#: inc/visual-composer/definity_vc.php:3133
+#: inc/visual-composer/definity_vc.php:3149
+#: inc/visual-composer/definity_vc.php:3165
+#: inc/visual-composer/definity_vc.php:3183
+#: inc/visual-composer/definity_vc.php:3201
+#: inc/visual-composer/definity_vc.php:3219
+#: inc/visual-composer/definity_vc.php:3234
+#: inc/visual-composer/definity_vc.php:3249
+#: inc/visual-composer/definity_vc.php:3263
+msgid "Map Options"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3064
+msgid "Address"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3065
+msgid "Address for the map marker (you can type it in any language)."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3082
+msgid "Map Type"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3083
+msgid "Select a map type."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3104
+msgid "Map Style"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3105
+msgid "Select a map style."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3131
+msgid "Map Height"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3132
+msgid "Enter a map height."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3146
+msgid "Zoom Level"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3147
+msgid "Default map zoom level (1 - 20)."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3162
+msgid "Minimum Zoom Level"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3163
+msgid "Minimum map zoom level (1 - 20)."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3178
+msgid "Zoom Controls"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3179
+msgid "Display map zoom controls."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3196
+msgid "Scroll Zoom"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3197
+msgid "Enable mouse-wheel zoom."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3214
+msgid "Touch Drag"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3215
+msgid "Enable touch-drag on mobile devices."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3232
+msgid "Marker Icon"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3233
+msgid "Custom marker icon."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3247
+msgid "Show map button"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3248
+msgid "Change the text of the show map button."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3261
+msgid "Hide map button"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3262
+msgid "Change the text of the show info button."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3276
+msgid "Show Map"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3278
+msgid "Google Map"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3291
+msgid "Custom background for address section"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3292
+msgid "Change the background color."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3303
+msgid "Custom color for address title and icon"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3304
+msgid "Change the title and icon color."
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3318
+#: inc/visual-composer/definity_vc.php:3336
+#: inc/visual-composer/definity_vc.php:3353
+#: inc/visual-composer/definity_vc.php:3368
+#: inc/visual-composer/definity_vc.php:3381
+#: inc/visual-composer/definity_vc.php:3394
+msgid "Address Group 1"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3335
+msgid "e.g. Phone"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3352
+msgid "e.g. + 123 4567 890"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3367
+msgid "e.g. + 123 7654 098"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3409
+#: inc/visual-composer/definity_vc.php:3427
+#: inc/visual-composer/definity_vc.php:3444
+#: inc/visual-composer/definity_vc.php:3458
+#: inc/visual-composer/definity_vc.php:3471
+#: inc/visual-composer/definity_vc.php:3484
+msgid "Address Group 2"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3426
+msgid "e.g. Address"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3443
+msgid "e.g. 1200 SOME STREET, IL, US"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3499
+#: inc/visual-composer/definity_vc.php:3517
+#: inc/visual-composer/definity_vc.php:3534
+#: inc/visual-composer/definity_vc.php:3548
+#: inc/visual-composer/definity_vc.php:3561
+#: inc/visual-composer/definity_vc.php:3574
+msgid "Address Group 3"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3516
+msgid "e.g. Email"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3533
+msgid "e.g. sayhello@email.com"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3588
+msgid "e.g. Open Hours"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3589
+#: inc/visual-composer/definity_vc.php:3603
+#: inc/visual-composer/definity_vc.php:3617
+#: inc/visual-composer/definity_vc.php:3630
+#: inc/visual-composer/definity_vc.php:3643
+msgid "Address Group 4"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3602
+msgid "e.g. MON-FRI: 9AM-5PM"
+msgstr ""
+
+#: inc/visual-composer/definity_vc.php:3616
+msgid "e.g. SAT: 10AM-1PM"
+msgstr ""
+
+#: inc/visual-composer/page-templates.php:11
+msgid "Home - Main Demo"
+msgstr ""
+
+#: inc/visual-composer/page-templates.php:62
+msgid "Home - Full Screen Slider"
+msgstr ""
+
+#: inc/visual-composer/page-templates.php:68
+msgid "Home - Full Screen Video"
+msgstr ""
+
+#: page-vc.php:23 page.php:27
+msgid "Sorry, nothing to display."
+msgstr ""
+
+#: searchform-nav.php:12
+msgid "Search"
+msgstr ""
+
+#: searchform-nav.php:16
+msgid "Search..."
+msgstr ""
+
+#: sidebar.php:37 sidebar.php:49 sidebar.php:60
+msgid "<h5>Sidebar Setup</h5><p>Please add widgets vie the admin area! Navigate to the apperance tab, then widgets, from the wordpress admin dashboard.</p>"
+msgstr ""
+
+#: template-parts/biography.php:21
+msgid "Post By %s"
+msgstr ""
+
+#: template-parts/content-archive.php:15
+msgid "Daily Archives %s"
+msgstr ""
+
+#: template-parts/content-archive.php:17
+msgid "Monthly Archives %s"
+msgstr ""
+
+#: template-parts/content-archive.php:19
+msgid "Yearly Archives %s"
+msgstr ""
+
+#: template-parts/content-archive.php:21
+msgid "<span>Tag: </span>"
+msgstr ""
+
+#: template-parts/content-archive.php:23
+msgid "<span>Category: </span>"
+msgstr ""
+
+#: template-parts/content-archive.php:25
+msgid "Posts by: %s"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: template-parts/content-search.php:11
+msgid "%s Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-single.php:36
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:46
+msgid "Categories: "
+msgstr ""
+
+#: template-parts/content-single.php:52
+msgid "Tags: "
+msgstr ""
+
+#: template-parts/content-single.php:58
+msgid "Share: "
+msgstr ""
+
+#: template-parts/content-single.php:69
+msgid "<span class=\"linea-arrows-slim-left\"></span> previous post"
+msgstr ""
+
+#: template-parts/content-single.php:70
+msgid "next post <span class=\"linea-arrows-slim-right\"></span>"
+msgstr ""
+
+#: template-parts/content-single.php:72
+msgid "Continue Reading"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Definity"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themes.89elements.com/definity/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Definity is clean and minimal, multipurpose one page & multi page wordpress theme, its 100% responsive and its build with Bootstrap 3 framework and SCSS. It follows the latest web design trends and offers lots of options to chose from. Comes with 20+ demos to chose. Its suitable for any business especially: creative agency, freelancer, personal portfolio, resume, photography, fashion, wedding, shop etc."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Viktor Andonov"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themes.89elements.com/definity/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Visual Composer"
+msgstr ""

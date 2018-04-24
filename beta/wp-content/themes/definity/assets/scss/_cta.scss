@@ -1,0 +1,266 @@
+/* --------------------------------------------------
+	14.0 CTA - Call to Action
+-------------------------------------------------- */
+
+
+/* ---- 14.1 CTA - Link ---- */
+.cta-link {
+	
+	.bg-overlay {
+		width: 100%;
+	}
+
+	.cta-wrapper {
+		padding-top: $ws-m;
+		padding-bottom: $ws-m;
+		text-align: center;
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: $ws-s;
+			letter-spacing: 8px;
+			color: $light;
+		}
+	}
+}
+
+
+/* ---- 14.2 CTA - Newsletter Signup ---- */
+.cta-newsletter {
+	// background: #999;
+
+	.cta-wrapper {
+		padding-top: $ws-m;
+		padding-bottom: $ws-m;
+		text-align: center;
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: $ws-m;
+			letter-spacing: 8px;
+			color: $light;
+		}
+
+		input[type="email"] {
+			display: block;
+			margin: 0 auto $ws-s auto;
+			padding-bottom: 10px;
+			width: 600px;
+			background: none;
+			border: none;
+			border-bottom: 2px solid $gray;
+			font-size: 2.6em;
+			font-weight: 400;
+			text-align: center;
+			color: $gray-light;
+			transition: border-color .4s;
+
+			&:focus {
+				outline: none;
+				border-color: $light;
+			}
+		}
+
+		::-webkit-input-placeholder {
+		  letter-spacing: 2px;
+		  color: rgba(235,235,235, .2);
+		}
+
+		:-moz-placeholder {
+			letter-spacing: 2px;
+			color: rgba(235,235,235, .2);
+		}
+
+		::-moz-placeholder {
+			letter-spacing: 2px;
+		  color: rgba(235,235,235, .2);
+		}
+
+		:-ms-input-placeholder {
+			letter-spacing: 2px;
+			color: rgba(235,235,235, .2);
+		}
+
+		.mc-info {
+			display: block;
+			font-weight: initial;
+			transition: translateY(10px);
+		}
+
+		.subscribe-result {
+			position: absolute;
+			left: 0;
+			right: 0;
+
+			.alert {
+				display: inline-block;
+				margin-top: 20px;
+			}
+		}
+
+		// CTA Button (CF7)
+		input[type="submit"].cta-btn-light {
+			@extend .btn;
+			background-color: $light;
+			color: $dark;
+
+			&:hover {
+				background-color: darken($light, 12%);
+				color: $dark;
+			}
+		}
+	} // .cta-wrapper
+} // .cta-newsletter
+
+
+/* ---- 14.3 CTA - Popup ---- */
+.cta-popup {
+	height: 365px;
+
+	.bg-overlay {
+		height: 100%;
+	}
+}
+
+.play-btn {
+	display: inline-block;
+	padding-top: 30px;
+
+	.play-icon {
+		display: inline-block;
+		font-size: 64px;
+		vertical-align: middle;
+		color: $light;
+		transform: translateX(65px);
+		transition: all .3s;
+	}
+
+	h5 {
+		display: inline-block;
+		padding-left: 20px;
+		vertical-align: middle;
+		color: $light;
+		opacity: 0;
+		transition: opacity .4s;
+	}
+
+	&:hover {
+		
+		.play-icon {
+			font-size: 40px;
+			transform: translateX(0);
+		}
+
+		h5 {
+			opacity: 1;
+		}
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+
+/* ---- 14.4 CTA - Float ---- */
+.cta-float {
+	display: flex;
+	justify-content: space-between;
+	background: $white;
+	box-shadow: 0 25px 25px 0 rgba(0,0,0,0.15);
+
+	.form-wrapper {
+		border: 1px solid $lighter;
+		position: relative;
+		padding: 40px 45px;
+
+		h2 {
+			margin: 0;
+			margin-bottom: 40px;
+			line-height: 27px;
+		}
+
+		form {
+
+			p {
+				position: relative;
+				clear: both;
+			}
+
+			.ajax-loader {
+				position: absolute;
+				left: -30px;
+				top: 11px;
+			}
+
+			small {
+				margin-top: 30px;
+			}
+
+			.wpcf7-response-output {
+				position: absolute;
+				bottom: 45px;
+				left: 0;
+				right: 0;
+				margin: auto 60px;
+				clear: both;
+				background: $white;
+				transform: unset;
+			}
+
+			.form-group {
+
+				span.wpcf7-not-valid-tip {
+					position: absolute;
+					top: -60px;
+					min-width: 200px;
+					line-height: 15px;
+				}
+			}
+		} // form
+	} // .form-wrapper
+} // .cta-float
+
+.cta-float.img-right {
+    flex-flow: row-reverse;
+}
+
+.cta-float.img-top,
+.cta-float.img-bottom {
+	
+	.img-wrapper {
+
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+
+.cta-float.img-top {
+	flex-flow: column;
+}
+
+.cta-float.img-bottom {
+	flex-flow: column-reverse;
+}
+
+
+/* ---- 14.5 CTA - Link Compact ---- */
+.cta-link-compact {
+
+	.cta-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 140px;
+
+		h3 {
+			margin: 0;
+			color: $light;
+			font-size: 1.2em;
+			letter-spacing: 5px;
+		}
+	}
+}

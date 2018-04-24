@@ -1,0 +1,243 @@
+/* --------------------------------------------------
+	1.0 Typography
+-------------------------------------------------- */
+
+
+
+mark {
+	background: #cafe48;
+}
+
+::-moz-selection {
+  
+  color: $white;
+  background: $highlight-text-bg;
+}
+
+::selection {
+  color: $white;
+  background: $highlight-text-bg;
+}
+
+
+
+/* ---- 1.1 Text ---- */
+body {
+	font-family: $body-font;
+	font-size: $body-text-size;
+	font-weight: $body-weight;
+	letter-spacing: $letter-spacing;
+	line-height: $line-hight;
+	color: $body-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $heading-font;
+	font-weight: 500;
+	color: $heading-text-color;
+	text-transform: uppercase;
+}
+
+
+p.dropcaps {
+
+	&:first-letter {
+		margin-right: 3px;
+		padding: 6px 13px;
+		font-weight: 700;
+		font-size: 23px;
+		background: #ececec;
+		color: #111;
+	}
+}
+
+
+/* ---- 1.2 Headings ---- */
+h1 {
+	font-size: $heading-base-size;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-size: $heading-base-size - .2em;
+	letter-spacing: 4px;
+}
+
+h3 {
+	font-size: $heading-base-size - .4em;
+	letter-spacing: 3.5px;
+}
+
+h4 {
+	font-size: $heading-base-size - .63em;
+	letter-spacing: 3px;
+}
+
+h5 {
+	font-size: $heading-base-size - .7em;
+	letter-spacing: 2px;
+}
+
+h6 {
+	font-size: $heading-base-size - .85em;
+	letter-spacing: 2px;
+}
+
+.h-alt {
+	font-family: $alt-heading-font;
+	font-weight: 300;
+}
+
+// in blog post
+.bp-content {
+
+	> h1,
+	> h2,
+	> h3,
+	> h4,
+	> h5,
+	> h6 {
+		margin-bottom: 26px;
+	}
+}
+
+
+/* ---- 1.3 Links ---- */
+a {
+	transition: all .5s;
+	color: $link-color;
+
+	&:hover {
+		text-decoration: none;
+		color: darken($link-color, 20%);
+	}
+}
+
+p > a {
+
+	&:visited {
+		color: darken($link-color, 6%);
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			color: $link-color;
+			text-decoration: none;
+		}
+	}
+
+	&:hover,
+	&:focus {
+		color: darken($link-color, 20%);
+		text-decoration: none;
+	}
+}
+
+
+
+/* ---- 1.4 Blockquotes ---- */
+blockquote {
+	border: none;
+	padding: 0;
+	font-size: 1.3em;
+	letter-spacing: .5px;
+
+	footer {
+		padding-top: 25px;
+
+		&:before {
+			content: '-';
+		}
+
+		cite {
+			text-transform: uppercase;
+			color: $gray-light;
+			font-style: normal;
+			font-size: .85em;
+			letter-spacing: 2px;
+		}
+	}
+}
+
+cite {
+	text-transform: uppercase;
+	color: $gray-light;
+	font-style: normal;
+	font-size: .85em;
+	letter-spacing: 2px;
+}
+
+.alt-blockquote {
+	padding: 50px;
+	background: $light-bg;
+}
+
+
+
+/* ---- 1.5 Lists ---- */
+.flat-list {
+	list-style: none;
+
+	li {
+		margin-bottom: 10px;
+
+		i {
+			&:before {
+				padding-right: 15px;
+			}
+		}
+	}
+}
+
+
+dl {
+
+	dt {
+		font-family: $heading-font;
+		font-size: 0.85em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	dd {
+		padding-top: 5px;
+		padding-bottom: 15px;
+	}
+}
+
+
+/* ---- 1.6 Other Typography ---- */
+address {
+	font-family: $alt-heading-font;
+	font-size: 0.85em;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: $gray;
+}
+
+ins {
+	text-decoration: none;
+	background: #41F2A9;
+	color: #fff;
+}
+
+kbd {
+	box-shadow: none;
+	background: none;
+	color: $dark;
+}
+
+q {
+	@extend blockquote;
+}
+
+code {
+	color: $dark;
+	background: $light;
+}

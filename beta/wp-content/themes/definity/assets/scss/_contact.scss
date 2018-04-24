@@ -1,0 +1,436 @@
+/* --------------------------------------------------
+	18.0 Contact Layouts
+-------------------------------------------------- */
+
+
+.map-boxed {
+	display: block;
+	position: relative;
+	height: 500px;
+	width: 100%;
+}
+
+.map-wide {
+	display: block;
+	position: relative;
+	height: 300px;
+	width: 100%;
+}
+
+.social-wrapper {
+	padding-top: $ws-s;
+	padding-bottom: $ws-s;
+	background: $footer-bg;
+
+	.social-links {
+		margin-bottom: 0;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			font-size: 30px;
+			margin: 0 20px;
+
+			a {
+				vertical-align: bottom;
+				color: $dark;
+
+				&:hover {
+					color: $gray-light;
+				}
+			}
+		}
+	}
+}
+
+form {
+
+	.alert-error {
+		color: $error-red;
+		font-size: .85em;
+	}
+
+	.input-error,
+	.input-error-2 {
+		border-color: $error-red;
+		transition: border-color .4s;
+
+		&:hover,
+		&:focus {
+			border-color: $error-red;
+		}
+	}
+} // form
+
+
+/* ---- 18.1 Contact Layout 1 ---- */
+.contact-1 {
+	padding-left: 0;
+	padding-right: 0;
+	
+	.contact-wrapper {
+		position: relative;
+
+		.contact-info-wrapper {
+			position: absolute;
+			padding: 70px 110px 40px 110px;
+			top: 75px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			background: #fff;
+			transition: opacity .5s, visibility .6s, margin-top .5s;
+
+			address {
+
+				.address-group {
+					margin-bottom: 40px;
+
+					span {
+						display: block;
+						margin-top: 0;
+						margin-bottom: 10px;
+						font-family: $heading-font;
+						font-weight: 500;
+						// font-size: 0.85em;
+						letter-spacing: 2px;
+						text-transform: uppercase;
+						color: $dark;
+					}
+
+					a,
+					p {
+						display: block;
+						margin-bottom: 3px;
+						font-family: $alt-heading-font;
+						font-weight: normal;
+						font-size: 0.9em;
+						letter-spacing: 1.6px;
+						text-transform: uppercase;
+						color: $gray-light;
+					}
+				} // .address-group
+
+				.show-map-link {
+
+					a {
+						display: block;
+						margin-top: -20px;
+						font-family: $heading-font;
+						font-weight: 500;
+						// font-size: 0.85em;
+						letter-spacing: 2px;
+						text-transform: uppercase;
+						color: $dark;
+
+						&:hover,
+						&:focus,
+						&:visited {
+							text-decoration: none;
+						}
+
+						&:hover {
+							color: $gray-light;
+						}
+
+						span {
+							margin-right: 15px;
+							padding-left: 15px;
+							vertical-align: middle;
+							font-size: 24px;
+						}
+					}
+				}
+			} // address
+		} // .contact-info-wrapper
+
+		.map-open {
+			margin-top: 30px;
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.show-info-link {
+			position: absolute;
+			height: 50px;
+			width: 200px;
+			top: -20px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			text-align: center;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .5s, visibility .6s, top .5s;
+
+			a {
+				display: block;
+				padding-top: 8px;
+				width: 100%;
+				height: 100%;
+				background: #fff;
+				color: $dark;
+
+				&:hover {
+					background: $light;
+				}
+
+				i {
+					display: inline-block;
+					padding-right: 15px;
+				}
+
+				h6 {
+					display: inline-block;
+				}
+			}
+		} // .show-info-link
+
+		.info-open {
+			top: 0;
+			opacity: 1;
+			visibility: visible;
+		}
+
+		form {
+
+			.alert {
+				margin-top: 30px;
+			}
+		}
+	} // .contact-wrapper
+} // .contact-1
+
+
+/* ---- 18.2 Contact Layout 2 ---- */
+.contact-2 {
+
+	.address-info {
+		@extend .footer-litle;
+		background: $lighter;
+	}
+}
+
+
+/* ---- 18.3 Contact Layout 3 ---- */
+.contact-3 {
+
+	.form-wrapper {
+		padding: $ws-l $ws-m $ws-m $ws-m;
+		border-top: 1px solid $lighter;
+		background: #fff;
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+
+		.from-header {
+			text-align: center;
+			margin-bottom: $ws-m;
+
+			h2 {
+				margin-top: 0;
+				margin-bottom: 30px;
+			}
+		}
+
+		p {
+			color: $gray-light;
+		}
+
+		.form-group {
+			padding-right: 45px;
+			padding-left: 45px;
+		}
+
+		input[type="submit"] {
+			display: block;
+			margin: auto;
+			margin-top: 30px;
+		}
+
+		.form-minimal {
+
+			input[type="text"],
+			input[type="email"],
+			input[type="tel"],
+			textarea {
+				border: none !important;
+				border-bottom: 1px solid $gray-light !important;
+
+				&:focus {
+					border-color: $dark !important;
+				}
+			}
+
+			.alert {
+				margin-top: 20px;
+			}
+
+			.input-error,
+			.input-error-2 {
+				border-color: $error-red !important;
+				transition: border-color .4s;
+
+				&:hover,
+				&:focus {
+					border-color: $error-red;
+				}
+			}
+		}
+	}
+} // .contact-3
+
+
+/* ---- 18.4 Contact Layout 4 ---- */
+.contact-4 {
+	
+	.contact-info {
+		position: relative;
+
+		.footer-map {
+			height: 790px;
+			background: #ccc;
+		}
+
+		.show-info-link {
+			display: inline-block;
+			position: absolute;
+			top: -50px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			padding-left: 25px;
+			padding-right: 25px;
+			width: 200px;
+			height: 50px;
+			font-family: $heading-font;
+			font-size: 0.85em;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			text-align: center;
+			color: $dark;
+			background: #fff;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .5s, visibility .6s, top .5s;
+			z-index: 999;
+
+			&:hover {
+				background: $light;
+			}
+
+			&:focus {
+				text-decoration: none !important;
+				border-bottom: none;
+			}
+
+			i {
+				display: inline-block;
+				padding-top: 18px;
+				padding-right: 15px;
+			}
+		}
+
+		.info-open {
+			top: 0;
+			opacity: 1;
+			visibility: visible;
+		}
+
+		address {
+			position: absolute;
+			margin-bottom: 0;
+			padding: 280px 100px 0 130px;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(17,17,17, .93);
+			transition: opacity .5s, visibility .6s;
+
+
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				width: 50%;
+				float: left;
+
+				li {
+					display: block;
+					margin-bottom: 30px;
+					padding: 7px 0 7px 20px;
+					border-left: 1px solid $gray;
+
+					.adr-heading {
+						display: block;
+						font-family: $heading-font;
+						font-size: 0.85em;
+						letter-spacing: 2px;
+						text-transform: uppercase;
+						color: $light;
+					}
+
+					.adr-info {
+						display: block;
+						padding-top: 5px;
+						font-size: .9em;
+						letter-spacing: 1.7px;
+						text-transform: uppercase;
+						color: $gray-light;
+					}
+				}
+			}
+
+			.show-map {
+				display: block;
+				position: absolute;
+				bottom: 100px;
+				font-family: $heading-font;
+				font-size: 0.85em;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				color: $light;
+
+				span {
+					padding-right: 20px;
+					font-size: 35px;
+					vertical-align: middle;
+				}
+
+				&:hover {
+					color: $gray-light;
+				}
+
+				&:focus {
+					text-decoration: none;
+				}
+			}
+		} // address
+	} // .contact-info-wrapper
+
+	.map-open {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.contact-form {
+		padding-left: 100px;
+		padding-right: 12%;
+
+		header {
+			text-align: left;
+			margin-bottom: $ws-s;
+		}
+
+		form {
+
+			.alert {
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 15px;
+			}
+		}
+	} // .contact-form
+} // .footer-contact

@@ -1,0 +1,419 @@
+/* --------------------------------------------------
+	11.0 Portfolio
+-------------------------------------------------- */
+
+
+.portfolio-filters {
+	list-style: none;
+	padding: 0;
+	margin-bottom: $ws-s;
+	text-align: center;
+
+	li {
+		display: inline-block;
+
+		a {
+			padding: 3px 15px;
+			text-transform: uppercase;
+			font-family: $alt-heading-font;
+			font-size: .85em;
+			letter-spacing: 2.5px;
+			color: $gray;
+
+			&:focus,
+			&:visited {
+				text-decoration: none;
+			}
+
+			&:hover {
+				color: $dark;
+			}
+		}
+	}
+
+	.active {
+
+		a {
+			background: $dark;
+			color: $light;
+			padding: 3px 15px;
+
+			&:hover {
+				color: $light;
+			}
+		}
+	}
+} // .portfolio-filters
+
+
+/* ---- 11.1 Full Width - Columns ---- */
+.portfolio-columns-fw {
+
+	.portfolio-item {
+		padding-left: 0;
+		padding-right: 0;
+
+		figure {
+			display: block;
+			position: relative;
+			width: 100%;
+			background: gray;
+			overflow: hidden;
+			float: left;
+
+			img {
+				max-width: 100%;
+				width: 100%;
+				height: auto;
+				transition: transform .3s;
+			}
+
+			figcaption {
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(17,17,17, .8);
+				overflow: hidden;
+				opacity: 0;
+				transition: opacity .5s;
+
+				.p-content {
+					position: absolute;
+					left: 40px;
+					right: 40px;
+					bottom: 25px;
+					transition: bottom .5s;
+				}
+
+
+				&:hover {
+					opacity: 1;
+
+					.p-content {
+						bottom: 45px;
+					}
+
+					.open-btn {
+						top: 0;
+					}
+				}
+			} // figcaption
+		}
+	} // .portfolio-item
+
+	.p-wrapper {
+		display: block;
+		position: relative;
+		width: 100%;
+		background: gray;
+		overflow: hidden;
+		float: left;
+
+		img {
+			max-width: 100%;
+			width: 100%;
+			height: auto;
+			transition: transform .3s;
+		}
+
+		&:hover,
+		&:active {
+
+			img {
+				transform: scale(1.07);
+			}
+
+			.open-btn {
+				top: 0;
+			}
+		}
+	} // .p-wrapper
+} // .portfolio-columns-fw
+
+
+/* ---- 11.2 Masonry Layout ---- */
+.portfolio-masonry {
+
+	.p-item,
+	.grid-sizer {
+	  width: 25%;
+	}
+
+	.p-item {
+	  float: left;
+	  background: #0D8;
+	}
+
+	.p-wrapper {
+		display: block;
+		position: relative;
+		width: 100%;
+		background: gray;
+		overflow: hidden;
+
+		img {
+			max-width: 100%;
+			width: 100%;
+			height: auto;
+			transition: transform .3s;
+		}
+
+		&:hover,
+		&:active {
+
+			img {
+				transform: scale(1.07);
+			}
+		}
+
+		.p-hover {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			opacity: 0;
+			transition: opacity .5s;
+
+			.p-content {
+				position: absolute;
+				left: 40px;
+				right: 40px;
+				bottom: 25px;
+				transition: bottom .5s;
+			}
+		} // .p-hover
+
+		.open-btn {
+			position: absolute;
+			padding-top: 22px;
+			width: 60px;
+			height: 60px;
+			right: 0;
+			top: -60px;
+			font-size: 15px;
+			text-align: center;
+			line-height: 0;
+			transition: top .5;
+
+			&:focus,
+			&:visited {
+				outline: none;
+			}
+		} // .open-btn
+
+		&:hover {
+			opacity: 1;
+
+			.p-content {
+				bottom: 45px;
+			}
+
+			.open-btn {
+				top: 0;
+			}
+		}
+	} // .p-wrapper
+} // .portfolio-masonry
+
+.portfolio-masonry-2 {
+	@extend .portfolio-masonry;
+
+	.p-item,
+	.grid-sizer {
+	  width: 33.33%;
+	}
+}
+
+.portfolio-masonry-3 {
+	@extend .portfolio-masonry-2;
+
+	.p-item,
+	.grid-sizer {
+	  width: 30.7%;
+	  margin: 15px;
+	}
+}
+
+
+/* ---- 11.3 Portfolio Simple ---- */	
+.portfolio-simple {
+	
+	figure {
+		width: 100%;
+		padding-bottom: 50px;
+
+		.img-wrapper {
+			position: relative;
+			overflow: hidden;
+
+			a.popup-video {
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+				font-size: 50px;
+				z-index: 99;
+				color: $white;
+				background: rgba(17,17,17, .12);
+			}
+
+			img {
+				max-width: 100%;
+				width: 100%;
+				height: auto;
+				transition: transform .35s;
+			}
+
+			a.open-btn {
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+
+				i {
+					display: none;
+				}
+			} // a.open-btn
+		} // .img-wrapper
+
+		figcaption {
+			padding-top: 20px;
+			text-align: center;
+
+			h5.p-title {
+				margin: 0;
+				font-size: 14px;
+				// font-weight: 600;
+				line-height: 14px;
+				letter-spacing: 1.75px;
+			}
+
+			p.p-subtitle {
+				margin-bottom: 0;
+				font-size: 12px;
+				letter-spacing: 2.14px;
+				text-transform: uppercase;
+				color: $gray-light;
+			}
+		}
+
+		.p-txt-left {
+			text-align: left;
+		}
+
+		.p-txt-right {
+			text-align: right;
+		}
+	}
+}
+
+
+/* ---- 11.4 Portfolio Project Nav ---- */
+.portfolio-nav {
+	background: $lighter;
+	
+	nav {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		padding: 50px 15px;
+		
+		.prev,
+		.next,
+		.all {
+			width: 33%;
+
+			a {
+				font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+			    font-weight: 500;
+			    font-size: 0.85em;
+			    letter-spacing: 2px;
+			    text-transform: uppercase;
+			    color: #111;
+
+			    .nav-icon {
+					display: inline-block;
+					font-size: 26px;
+					color: $dark;
+					vertical-align: top;
+				}
+			}
+		}
+
+		.prev,
+		.next {
+
+			a {
+
+				&:visited,
+				&:focus {
+					text-decoration: none;
+				}
+			}
+
+			&:hover {
+				transform: translateX(0);
+
+				.nav-icon {
+					transform: translateX(0);
+					opacity: 1;
+				}
+			}
+		}
+
+		.prev {
+			text-align: left;
+			transform: translateX(-15px);
+			transition: transform .3s;
+
+			.nav-icon {
+				opacity: 0;
+				transform: translateX(15px);
+				transition: all .4s;
+			}
+		}
+
+		.next {
+			text-align: right;
+			transform: translateX(15px);
+			transition: transform .3s;
+
+			.nav-icon {
+				opacity: 0;
+				transform: translateX(-15px);
+				transition: all .4s;
+			}
+		}
+
+		.all {
+			text-align: center;
+
+			a {
+
+				span {
+					transition: all .35s;
+				}
+
+				&:hover,
+				&:focus {
+
+					span {
+						color: $gray;
+					}
+				}
+			}
+		}
+	} // nav
+} // .portfolio-nav

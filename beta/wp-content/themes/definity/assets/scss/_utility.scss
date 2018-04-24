@@ -1,0 +1,339 @@
+/* --------------------------------------------------
+	0.4 Utility
+-------------------------------------------------- */
+
+
+hr {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-color: $hr-color;
+}
+
+.no-gap {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.no-gap-left {
+	padding-left: 0;
+}
+
+.no-gap-right {
+	padding-right: 0;
+}
+
+.center-block {
+	margin: 0 auto;
+	display: block !important;
+}
+
+.ta-center {
+	text-align: center;
+}
+
+.no-style-link {
+	color: inherit;
+
+	&:focus,
+	&:visited {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	&:hover {
+		color: lighten($dark, 50%);
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+.hide {
+	position: absolute; 
+	margin: -1px; 
+	padding: 0; 
+	border: 0;
+	height: 1px; 
+	width: 1px; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+}
+
+
+/* ---- Preloader ---- */
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: $dark;
+	z-index: 9999;
+
+	img {
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 50px;
+		height: 50px;
+		margin: auto;
+	}
+}
+
+
+/* ---- White Space ---- */
+.ws-s {
+	padding-bottom: $ws-s;
+}
+
+.ws-m {
+	padding-bottom: $ws-m;
+}
+
+.ws-l {
+	padding-bottom: $ws-l;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.mb-75 {
+	margin-bottom: 75px;
+}
+
+.mb-100 {
+	margin-bottom: 100px;
+}
+
+.section {
+	padding-top: $ws-l;
+	padding-bottom: $ws-m;
+}
+
+
+/* ---- Section Headings ---- */
+.sec-heading {
+	margin-bottom: $ws-m;
+	text-align: center;
+
+	.subheading {
+		display: block;
+		text-transform: uppercase;
+		font-family: $alt-heading-font;
+		font-weight: 300;
+		color: $gray-light;
+		letter-spacing: 2.5px;
+	}
+
+	h2,
+	span {
+		
+		&:first-child {
+			margin: 0;
+		}
+
+		&:last-child {
+			margin-top: 25px;
+		}
+
+		&:only-child {
+			margin-top: 0;
+		}
+	}
+}
+
+.sec-heading.pfolio-header {
+	margin-bottom: 0;
+}
+
+
+/* ---- Info Blocks ---- */
+.info-base {
+	position: relative;
+	width: 100%;
+	
+
+	.info-overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+
+		.info-wrapper {
+			padding-top: 70px;
+			padding-bottom: 70px;
+			top: 75px;
+			bottom: 75px;
+			background: rgba(17,17,17, .9);
+		}
+	}
+} // .info-base
+
+.info-slider {
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+
+	&:hover {
+
+		.slick-prev,
+		.slick-next {
+			opacity: 1;
+		}
+	}
+
+	.slick-prev,
+	.slick-next {
+		display: inline-block;
+		position: absolute;
+		top: 30%;
+		background: none;				
+		border: 2px solid #444;
+		color: #444;
+		height: 42px;
+		width: 42px;
+		font-size: 15px;
+		opacity: 0;
+		transition: all .5s;
+
+		&:focus {
+			outline: none;
+		}
+
+		&:hover {
+			color: $light;
+			border-color: $light;
+		}
+	}
+
+	.slick-prev {
+		left: -75px;
+	}
+
+	.slick-next {
+		right: -75px;
+	}
+}
+
+
+/* ---- Responsive Video Wraper ---- */
+.definity-video-wrap {
+	position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    }
+}
+
+
+/* ---- Alerts (CF7) ---- */
+.wpcf7-response-output {
+	position: absolute;
+	bottom: -70px;
+	right: 50%;
+	transform: translateX(50%);
+}
+
+.wpcf7-response-output.wpcf7-validation-errors,
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+	display: flex !important;
+	align-items: center;
+	margin: 0;
+	padding: 0 25px;
+	height: 57px;
+	max-height: 100px;
+	border: none;
+	border-top: solid 3px #20A673;
+	border-radius: 0;
+	box-shadow: 0 1px 2px 0 rgba(17,17,17,0.15);
+	background: #f5f1b8 !important;
+	border-color: #C5C11A;
+	color: #938A0F;
+}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+	background: #e2f4f4 !important;
+	border-color: #6bb3b2;
+	color: #6bb3b2;
+}
+
+
+/* ---- WordPress Utility Classes ---- */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.page-default {
+	margin-bottom: 60px;
+}
+
+
+/* ---- Visual Composer Utility Classes ---- */
+
+// Column extra top spacing removed
+.vc_row-has-fill>.vc_column_container>.vc_column-inner {
+	padding-top: 0 !important;
+}
+
+// Single Image bottom spacing removed
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+	margin-bottom: 0 !important;
+}
+
+.vc_row {
+	outline: none;
+}
+
+.vc_video-bg-container {
+	background-size: cover;
+	background-position: 50%;
+}
+
+
+/* ---- Other ---- */
+.wow {
+	visibility: hidden;
+}
+
+.wow.pulse {
+	visibility: visible !important;
+}
+
+.wow.flash {
+	visibility: visible !important;
+}
+
+.wow.swing {
+	visibility: visible !important;
+}
+
+.wow.bounce {
+	visibility: visible !important;
+}
+
+.wow.hinge {
+	visibility: visible !important;
+}

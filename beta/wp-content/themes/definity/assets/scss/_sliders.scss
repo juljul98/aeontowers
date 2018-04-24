@@ -1,0 +1,134 @@
+/* --------------------------------------------------
+	19.0 Sliders
+-------------------------------------------------- */
+
+
+/* ---- 19.1 Single Image Slider ---- */
+.single-img-slider {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	li {
+
+		img {
+			max-width: 100%;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.slider-nav {
+		top: 50%;
+		margin-top: -25px;
+
+		span {
+			display: block;
+			padding-bottom: 7px;
+			font-size: 26px;
+		}
+	}
+}
+
+
+/* ---- 19.2 Sliders Nav ---- */
+.box {
+	width: 60px;
+	height: 60px;
+	background: $light;
+	text-align: center;
+}
+
+.slick-dots {
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	margin-top: 25px;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+	text-align: center;
+
+	li {
+		display: inline-block;
+		margin-right: 10px;
+		height: 14px;
+		width: 14px;
+		vertical-align: middle;
+		border: 2px solid $light;
+		border-radius: 0;
+		transition: all .3s;
+
+		button {
+			display: none;
+		}
+
+		&:hover {
+			background: $light;
+			cursor: pointer;
+		}
+	}
+
+	.slick-active {
+		border: 2px solid rgba(17,17,17, 0);
+		background: $light;
+		height: 14px;
+		width: 14px;
+	}
+}
+
+// Slider Nav
+.slider-nav {
+	display: inline-block;
+	position: absolute;
+	margin-top: -50px;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	border: none;
+	background: $dark;
+	line-height: 0;
+	color: $light;
+	transition: background .3s;
+
+	i {
+		font-size: 15px;
+	}
+
+	&:hover {
+		background: lighten($dark, 15%);
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.sl-next {
+	right: 20px;
+}
+
+.sl-prev {
+	left: 20px;
+}
+
+// note: affects (_testimonials) .t-slider & .single-img-slider
+.arrows-hover-only {
+
+	.t-slider-nav,
+	.slider-nav {
+		opacity: 0;
+		transition: opacity .4s;
+	}
+
+	&:hover {
+
+		.t-slider-nav,
+		.slider-nav {
+			opacity: 1;
+		}
+	}
+} // .arrows-hover-only
+
+
+

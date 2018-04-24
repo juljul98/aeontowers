@@ -1,0 +1,99 @@
+/* --------------------------------------------------
+	21.0 Tables
+-------------------------------------------------- */
+
+table,
+.table {
+	display: table !important;
+	border: none;
+
+	thead {
+		border: none;
+		background: $dark;
+
+		tr {
+
+			th {
+				padding: 15px;
+				border: none;
+		 		font-family: $heading-font;
+		 		font-size: 11px !important;
+		 		font-weight: 400 !important;
+		 		letter-spacing: 2px;
+		 		text-transform: uppercase;
+		 		color: $white;
+			}
+		}
+	}
+
+	tbody {
+
+		tr {
+			background: #fff;
+
+			&:first-child {
+				padding: 15px;
+				border: none;
+		 		font-family: $heading-font;
+		 		font-size: 11px !important;
+		 		font-weight: 400 !important;
+		 		letter-spacing: 2px;
+		 		text-transform: uppercase;
+		 		color: $white;
+		 		background: $dark;
+			}
+
+			th {
+				padding: 15px;
+				border: 1px solid $light;
+				font-weight: 300;
+			}
+
+			td {				
+				padding: 15px;
+				border: 1px solid $light;
+				vertical-align: middle;
+			}
+		}
+	}
+} // .table
+
+
+.table-light {
+
+	thead {
+		border: none;
+		background: $light;
+
+		tr {
+
+			th {
+		 		color: $dark;
+			}
+		}
+	}
+
+	tbody {
+
+		tr {
+
+			&:nth-child(even) {
+				background: none;
+			}
+		}
+	}
+}
+
+
+.table-row-highlight {
+	
+	tbody {
+
+		tr {
+
+			&:nth-child(even) {
+				background: $lighter;
+			}
+		}
+	}
+}

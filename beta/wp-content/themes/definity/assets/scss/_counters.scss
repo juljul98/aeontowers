@@ -1,0 +1,67 @@
+/* --------------------------------------------------
+	8.0 Counters
+-------------------------------------------------- */
+
+
+/* ---- 8.1 Circle Counters ---- */
+.circles-counters {
+
+	.circle-item {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		text-align: center;
+		
+		.chart {
+			position: relative;
+
+			.circle-icon {
+				display: block;
+				position: absolute;
+				top: 43px;
+				left: 0;
+				right: 0;
+				margin: auto;
+
+				font-size: 64px;
+				color: $light;
+			}
+		}
+
+		.circle-text {
+			font-family: $heading-font;
+			font-size: 0.85em;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: $light;
+		}
+	}
+} // .circles-counters-2
+
+
+/* ---- 8.2 Counters - Numbers ---- */
+.number-counters {
+	padding-top: 110px;
+	padding-bottom: 100px;
+
+	.count-item {
+		display: block;
+		text-align: center;
+
+		.count-nbr {
+			display: block;
+			margin-bottom: 30px;
+			font-family: $alt-heading-font;
+			font-size: 65px;
+			font-weight: lighter;
+			color: $light;
+		}
+
+		.count-text {
+			font-family: $heading-font;
+			font-size: 0.85em;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: $light;
+		}
+	}
+} // .number-counters
